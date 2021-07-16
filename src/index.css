@@ -12,4 +12,5 @@ code {
     monospace;
 }
 
-circle {fill: lightblue; stroke: black;}
+/* circle {fill: lightblue; stroke: black;} */
+circle {stroke: black;}
