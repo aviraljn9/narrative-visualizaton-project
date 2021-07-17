@@ -84,7 +84,7 @@ export class Plot extends Component {
     {
         // console.log('plot mounted')
         this.incomedata = await d3.csv('/income_processed.csv');
-        // console.log(this.incomedata);
+        console.log(this.incomedata);
         this.cm_data = await d3.csv('/child_mortality_0_5_year_olds_dying_per_1000_born.csv');
         // console.log(this.cm_data);
 
